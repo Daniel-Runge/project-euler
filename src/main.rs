@@ -16,4 +16,3 @@ fn solve(problem: usize){
         _ => println!("Problem {} has no solution yet :(", problem),
     };
 }
-
