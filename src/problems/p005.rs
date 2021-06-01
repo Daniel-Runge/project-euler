@@ -5,7 +5,6 @@
 pub fn solve() -> usize {
     let mut number = 1;
     for i in 11..=20 {
-        println!("Number: {}, i: {}", number, i);
         number = lcm(number, i);
     }
     number
